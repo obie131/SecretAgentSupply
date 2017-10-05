@@ -9,6 +9,8 @@ html{
   flex-wrap: wrap;
 
 }
+
+
 /* header */
 header{
   display: block;
@@ -16,13 +18,15 @@ header{
   align-items: center;
   color: white;
   height: 65px;
-  padding-left: 20%;
+  padding-left: 10%;
   font-size: 1rem;
   max-width: 960;
+  margin: auto;
 }
 header .logo{
   height: 40px;
   padding-right: 2%;
+  
 }
 /* main body  */
 
@@ -30,6 +34,8 @@ header .logo{
   display: block;
   background-color: black;
   max-width: 1200px;
+
+
 
 }
 /* main content  */
@@ -40,6 +46,7 @@ header .logo{
   background-position: center;
   height: 25em;
   max-width: 960px;
+  margin: auto;
 
 }
 .newarrival{
@@ -57,6 +64,7 @@ footer{
   height: 200px;
   background-color: black;
   color: white;
+  margin: auto;
 }
 
 footer p{
