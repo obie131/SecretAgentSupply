@@ -1,0 +1,39 @@
+html{
+  font-size: 16px;
+}
+
+.flex-container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+/* header */
+header{
+  background-color: black;
+  align-items: center;
+  color: white;
+  height: 65px;
+  padding-left: 20%;
+  font-size: 1rem;
+}
+header .logo{
+  height: 40px;
+  padding-right: 2%;
+}
+
+
+
+
+
+/*footer  */
+footer{
+  height: 200px;
+  background-color: black;
+  color: white;
+}
+
+footer p{
+  padding-top: 100px;
+padding-left: 20%;
+}
