@@ -1,5 +1,6 @@
 html{
   font-size: 16px;
+  color: white;
 }
 
 .flex-container{
@@ -10,19 +11,44 @@ html{
 }
 /* header */
 header{
+  display: block;
   background-color: black;
   align-items: center;
   color: white;
   height: 65px;
   padding-left: 20%;
   font-size: 1rem;
+  max-width: 960;
 }
 header .logo{
   height: 40px;
   padding-right: 2%;
 }
+/* main body  */
 
+.page{
+  display: block;
+  background-color: black;
+  max-width: 1200px;
 
+}
+/* main content  */
+.main{
+  display: block;
+  background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 25em;
+  max-width: 960px;
+
+}
+.newarrival{
+  background-color: black;
+  width: 20em;
+  padding: 2em 3em;
+  position: relative;
+  top:9em;
+}
 
 
 
